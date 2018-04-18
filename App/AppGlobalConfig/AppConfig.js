@@ -14,8 +14,8 @@ GLOBAL.totalSize = num => (Math.sqrt((height * height) + (width * width)) * num)
 // 0 - google only, 1 - facebook only, 2 - both
 GLOBAL.appLoginStyle = 2;
 // measures of some elements
-companyBannerHeight = (height / 4) + (height / 19);
-companyIconWidth = (width * 52) / 100;
+companyBannerHeight = (height / 14) + (height / 59);
+companyIconWidth = (width * 52) / 250;
 topTabButtonHeight = height / 12;
 GLOBAL.bodyHeight = height - companyBannerHeight - topTabButtonHeight;
 
@@ -54,8 +54,8 @@ class AppGlobalConfig {
     }
 
     changeAppMainColor = () => {
-      appMainColor = '#BA2B2B';
-      Colors.defineAppColors('#BA2B2B');
+      appMainColor = '#ffffff';
+      Colors.defineAppColors('#ffffff');
       AppStyles.loadStyles();
       this.saveAppData();
       GLOBAL.resetAppWithNewColorOrTheme();

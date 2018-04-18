@@ -26,7 +26,10 @@ export default class FacebookButton extends Component {
           <Text
             uppercase={false}
             style={{
-            fontSize: GLOBAL.totalSize(2.22), fontWeight: '500', color: mainThemeColor, paddingLeft: width / 40,
+            fontSize: GLOBAL.totalSize(2.22),
+            fontWeight: '500',
+            color: mainThemeColor,
+            textAlign: 'center',
           }}
           >Login with Facebook
           </Text>

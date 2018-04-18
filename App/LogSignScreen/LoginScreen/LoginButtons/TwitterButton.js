@@ -18,7 +18,7 @@ export default class TwitterButton extends Component {
             width: (width * 74) / 100,
             height: height / 14,
             borderColor: mainThemeColor,
-            marginTop: height / 130,
+            marginTop: height / 70,
             backgroundColor: '#1dcaff',
           }}
         >
@@ -26,7 +26,11 @@ export default class TwitterButton extends Component {
           <Text
             uppercase={false}
             style={{
-            fontSize: GLOBAL.totalSize(2.22), fontWeight: '500', color: mainThemeColor, paddingLeft: 0,
+            fontSize: GLOBAL.totalSize(2.22),
+            fontWeight: '500',
+            textAlign: 'center',
+            color: mainThemeColor,
+            marginRight: 18,
           }}
           >Login with Twitter
           </Text>

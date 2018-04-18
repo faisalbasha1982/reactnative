@@ -14,15 +14,25 @@ export default class LinkedInButton extends Component {
           onPress={this.onLinkedInButtonClick}
           iconLeft
           activeOpacity={0.5}
-          style={{ width: (width * 37) / 100, height: height / 14, borderColor: mainThemeColor }}
+          style={{
+            width: (width * 37) / 50,
+            height: height / 14,
+            backgroundColor: '#4875B4',
+            borderColor: mainThemeColor,
+            marginBottom: height / 80,
+          }}
         >
-          <Icon style={{ fontSize: GLOBAL.totalSize(3.5), color: mainThemeColor }} name="logo-facebook" />
+          <Icon style={{ fontSize: GLOBAL.totalSize(3.5), color: mainThemeColor }} name="logo-linkedin" />
           <Text
             uppercase={false}
             style={{
-            fontSize: GLOBAL.totalSize(2.22), fontWeight: '500', color: mainThemeColor, paddingLeft: width / 30,
+            fontSize: GLOBAL.totalSize(2.22),
+            fontWeight: '500',
+            textAlign: 'center',
+            color: mainThemeColor,
+            marginRight: 10,
           }}
-          >LinkedIn
+          >Login with LinkedIn
           </Text>
         </Button>
       );
@@ -31,16 +41,22 @@ export default class LinkedInButton extends Component {
       <Button
         iconLeft
         activeOpacity={0.5}
-        onPress={this.onFacebookButtonClick}
+        onPress={this.onLinkedInButtonClick}
         style={{
-          alignSelf: 'center', justifyContent: 'center', marginTop: height / 34, borderColor: mainThemeColor, width: (width * 13) / 200, height: height / 14,
+          backgroundColor: '#4875B4',
+          alignSelf: 'center',
+          justifyContent: 'center',
+          marginTop: height / 134,
+          borderColor: '#4875B4',
+          width: (width * 37) / 50,
+          height: height / 14,
         }}
       >
         <Text
           uppercase={false}
           style={{ color: mainThemeColor, fontWeight: '500', fontSize: GLOBAL.totalSize(2.22) }}
         >
-          {language.facebook}
+          {language.linkedin}
         </Text>
       </Button>
     );

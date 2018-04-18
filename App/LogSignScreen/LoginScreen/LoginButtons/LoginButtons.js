@@ -6,6 +6,7 @@ import GuestButton from '../../GuestButton/GuestButton';
 import GoogleButton from './GoogleButton';
 import FacebookButton from './FacebookButton';
 import TwitterButton from './TwitterButton';
+import LinkedInButton from './LinkedInButton';
 
 export default class LoginButtons extends Component {
   render() {
@@ -27,13 +28,31 @@ export default class LoginButtons extends Component {
       );
     }
     return (
-      <View style={{ flex: 1 }}>
-        <View style={{ flexDirection: 'column', justifyContent: 'center', marginTop: height / 30 }}>
+      <View style={{
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: height / 10,
+    }}>
+        <View style={{
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          marginTop: height / 5,
+        }}
+        >
+          <LinkedInButton special />
           <FacebookButton special />
           <GoogleButton special />
           <TwitterButton special />
-          <View style={{ justifyContent: 'center', alignItems: 'center', marginTop: height / 130 }}>
-            <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 25 }}>OR</Text>
+          <View style={{ justifyContent: 'center', alignItems: 'center', marginTop: height / 25 }}>
+            <Text style={{
+                  color: '#000000',
+                  fontWeight: 'bold',
+                  fontSize: 25,
+                  fontStyle: 'italic',
+          }}>or....
+            </Text>
           </View>
         </View>
       </View>

@@ -1,21 +1,15 @@
 import React, { Component } from 'react';
 import { Actions } from 'react-native-router-flux';
-import { View } from 'native-base';
 import { Dimensions } from 'react-native';
+import { View } from 'native-base';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import * as Animatable from 'react-native-animatable';
-import LinearGradient from 'react-native-linear-gradient';
 import CompanyBanner from './CompanyBanner/CompanyBanner';
-import LoginScreen from './LoginScreen/LoginScreen';
-import SignInScreen from './SignInScreen/SignInScreen';
-import TopTabs from './TopTabs/TopTabs';
-import SettingsButton from './Settings/SettingsButton';
-import SettingsPanel from './Settings/SettingsPanel';
-import PopupDialogs from './Settings/PopupDialogs/PopupDialogs';
+import LoginScreenMA from './LoginScreen/LoginScreenMA';
 
 const viewPortHeight = Dimensions.get('window').height;
 
-export default class LogSignScreen extends Component {
+export default class LogSignScreenMA extends Component {
   changeZindex = () => {
     this.signInScreen.changeZindex();
   };
@@ -52,24 +46,33 @@ export default class LogSignScreen extends Component {
 
   render() {
     return (
-      <KeyboardAwareScrollView
-        {...GLOBAL.keyboardAvoidView}
-        ref={(ref) => { this.keyboardAvoidView = ref; }}
-      >
-        <CompanyBanner />
-        <Animatable.View
-          animation="fadeIn"
-          delay={1900}
-          duration={1000}
-          style={{ flex: 7, flexDirection: 'row', height: viewPortHeight }}
+      <View style={{
+        flex: 1,
+        backgroundColor: '#f6f6f5',
+    }}>
+        <KeyboardAwareScrollView
+          {...GLOBAL.keyboardAvoidView}
+          ref={(ref) => { this.keyboardAvoidView = ref; }}
         >
-          <LoginScreen
-            move={this.moveToMainAppScreen}
-            ref={(ref) => { this.loginScreen = ref; }}
-          />
-
-        </Animatable.View>
-      </KeyboardAwareScrollView>
+          <CompanyBanner />
+          <Animatable.View
+            animation="fadeIn"
+            delay={1900}
+            duration={1000}
+            style={{
+              flex: 7,
+              flexDirection: 'row',
+              height: viewPortHeight,
+              backgroundColor: 'transparent',
+            }}
+          >
+            <LoginScreenMA
+              move={this.moveToMainAppScreen}
+              ref={(ref) => { this.loginScreen = ref; }}
+            />
+          </Animatable.View>
+        </KeyboardAwareScrollView>
+      </View>
     );
   }
 }

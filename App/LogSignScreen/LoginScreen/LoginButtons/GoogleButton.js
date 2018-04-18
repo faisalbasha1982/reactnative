@@ -19,14 +19,18 @@ export default class GoogleButton extends Component {
             height: height / 14,
             borderColor: mainThemeColor,
             backgroundColor: 'red',
-            marginTop: height / 150,
+            marginTop: height / 80,
         }}
         >
           <Icon style={{ fontSize: GLOBAL.totalSize(3.5), color: mainThemeColor }} name="logo-google" />
           <Text
             uppercase={false}
             style={{
-            fontSize: GLOBAL.totalSize(2.22), flex: 1, textAlign: 'center', fontWeight: '500', color: mainThemeColor, paddingLeft: width / 80,
+            fontSize: GLOBAL.totalSize(2.22),
+            textAlign: 'center',
+            fontWeight: '500',
+            color: mainThemeColor,
+            marginRight: 20,
           }}
           >Login with Google
           </Text>

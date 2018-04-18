@@ -49,7 +49,7 @@ export default class LoginButton extends Component {
       animationType = null;
     }
 
-    let indicator = (<Text uppercase={false} style={{ color: 'black', fontWeight: '500', fontSize: GLOBAL.totalSize(2.22) }}>{language.login}</Text>);
+    let indicator = (<Text uppercase={false} style={{ color: 'white', fontWeight: '500', fontSize: GLOBAL.totalSize(2.22) }}>{language.login}</Text>);
     if (this.state.isLogin) {
       indicator = (<Spinner color={loginColor} size="large" />);
     }
@@ -62,13 +62,20 @@ export default class LoginButton extends Component {
           activeOpacity={0.5}
           onPress={this.loginUser}
           style={{
-            borderColor: 'black',
-            backgroundColor: 'white',
+            borderColor: '#000',
+            backgroundColor: '#e82d38',
             alignSelf: 'center',
             justifyContent: 'center',
             width: (width * 7) / 10,
             height: height / 13,
             marginTop: height / 50,
+            shadowColor: '#000000',
+            shadowOffset: {
+              width: 5,
+              height: 3,
+            },
+            shadowRadius: 15,
+            shadowOpacity: 1.0,
           }}
         >
           {indicator}

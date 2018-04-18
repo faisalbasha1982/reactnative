@@ -14,7 +14,7 @@ export default class CompanyBanner extends Component {
 
   render() {
     return (
-      <View animation="fadeInRight" delay={250} duration={700}>
+      <View animation="fadeInRight" delay={250} duration={700} style={{ flex: 1, marginTop: height / 10 }}>
         <ImageBackground
           source={bannerImage}
           style={companyBannerStyle.background}

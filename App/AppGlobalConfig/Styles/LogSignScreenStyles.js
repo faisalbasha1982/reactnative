@@ -27,10 +27,13 @@ class LogSignScreenStyles {
 
       GLOBAL.companyBannerStyle = StyleSheet.create({
         background: {
-          width, height: companyBannerHeight, alignItems: 'center', justifyContent: 'center',
+          width,
+          height: companyBannerHeight,
+          alignItems: 'center',
+          justifyContent: 'center',
         },
         icon: {
-          position: 'absolute', width: companyIconWidth,
+          width: companyIconWidth,
         },
       });
 
@@ -91,7 +94,12 @@ class LogSignScreenStyles {
       GLOBAL.keyboardAvoidView = {
         style: { flex: 1 },
         resetScrollToCoords: { x: 0, y: 0 },
-        contentContainerStyle: { backgroundColor: appMainColor },
+        contentContainerStyle: {
+          backgroundColor: 'transparent',
+          borderColor: 'black',
+          borderStyle: 'solid',
+          borderWidth: 1,
+        },
         extraHeight: height / 10,
         keyboardOpeningTime: 0,
         enableOnAndroid: true,
@@ -100,13 +108,22 @@ class LogSignScreenStyles {
 
       GLOBAL.loginScreenStyle = StyleSheet.create({
         mainView: {
-          zIndex: 1, flex: 2, backgroundColor: 'transparent',
+          flex: 1,
+          backgroundColor: 'transparent',
         },
         form: {
-          marginRight: width / 40, padding: 10, flex: 1, justifyContent: 'center', alignItems: 'center', alignSelf: 'center',
+          marginRight: width / 40,
+          marginTop: height / 4,
+          padding: 0,
+          flex: 2,
+          alignItems: 'center',
         },
         remember: {
-          color: `${mainThemeColor}DC`, fontSize: GLOBAL.totalSize(2.2), backgroundColor: 'transparent',
+          color: 'black',
+          fontSize: GLOBAL.totalSize(2.2),
+          backgroundColor: 'transparent',
+          fontStyle: 'italic',
+          fontWeight: 'bold',
         },
       });
     }

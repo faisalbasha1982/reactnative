@@ -4,7 +4,7 @@ import { Router, Scene, Actions } from 'react-native-router-flux';
 import Toast, { DURATION } from 'react-native-easy-toast';
 import SplashScreen from 'react-native-splash-screen';
 import AppGlobalConfig from './AppGlobalConfig/AppConfig';
-import LogSignScreen from './LogSignScreen/LogSignScreen';
+import LogSignScreen from './LogSignScreen/LogSignScreenMA';
 import MainAppScreen from './MainAppScreen/MainAppScreen';
 
 let context;
@@ -40,7 +40,7 @@ export default class App extends Component {
     }
   }
   onBackPressed = () => {
-    if (Actions.currentScene === 'logSignScreen') {
+    if (Actions.currentScene === 'logSignScreenMA') {
       BackHandler.exitApp();
       return false;
     }
@@ -55,7 +55,7 @@ export default class App extends Component {
           <Router backAndroidHandler={this.onBackPressed} style={{ backgroundColor: appMainColor }}>
             <Scene key="root">
               <Scene
-                key="logSignScreen"
+                key="logSignScreenMA"
                 component={LogSignScreen}
                 hideNavBar
                 initial

@@ -6,7 +6,7 @@ import Email from '../InputComponents/Email';
 import LoginButton from './LoginButtons/LoginButton';
 import LoginButtons from './LoginButtons/LoginButtons';
 
-export default class LoginScreen extends Component {
+export default class LoginScreenMA extends Component {
   constructor() {
     super();
     this.state = {
@@ -76,7 +76,7 @@ export default class LoginScreen extends Component {
   }
 }
 
-LoginScreen.propTypes = {
+LoginScreenMA.propTypes = {
   move: PropTypes.func.isRequired,
   clear: PropTypes.func.isRequired,
 };

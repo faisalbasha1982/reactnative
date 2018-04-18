@@ -39,7 +39,7 @@ export default class Email extends Component {
         marginTop: this.props.special ? height / 270 : 0,
         width: (width * 7) / 10,
         height: height / 13,
-        borderColor: mainThemeColor,
+        borderColor: 'black',
         borderWidth: 1,
         borderStyle: 'solid',
     }}>
@@ -51,6 +51,7 @@ export default class Email extends Component {
           autoCapitalize="none"
           keyboardType="email-address"
           placeholder={language.email}
+          placeholderTextColor={{ color: 'black', fontWeight: 'bold', fontStyle: 'italic' }}
           onSubmitEditing={this.props.changeFocus}
           onChangeText={this.updateText}
           onEndEditing={this.checkIfIsCorrect}
