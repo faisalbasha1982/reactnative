@@ -1,13 +1,64 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Button, Text, Icon } from 'native-base';
+import { GoogleSignin, GoogleSigninButton } from 'react-native-google-signin';
+
 
 export default class GoogleButton extends Component {
-  onGoogleButtonClick = () => {
-    console.warn('Google button clicked'); // eslint-disable-line
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      user: '',
+    };
+  }
+
+  componentDidMount() {
+  }
+
+  onGoogleButtonClick = async () => {
+    await GoogleSignin.configure({
+      iosClientId: '856112431306-btql03u777irm9ge99n959s1k96omqc8.apps.googleusercontent.com',
+    })
+      .then(() => {
+      // you can now call currentUserAsync()
+        GoogleSignin.currentUserAsync().then((user) => {
+          console.log('USER', user);
+          this.setState({ user });
+        }).done();
+      });
+    const userNew = GoogleSignin.currentUser();
+
+    GoogleSignin.hasPlayServices({ autoResolve: true }).then(() => {
+      // play services are available. can now configure library
+    })
+      .catch((err) => {
+        console.log('Play services error', err.code, err.message);
+      });
+
+    GoogleSignin.signIn()
+      .then((user) => {
+        console.log(user);
+        this.setState({ user });
+
+        GoogleSignin.getAccessToken()
+          .then((token) => {
+            console.log(token);
+          })
+          .catch((err) => {
+            console.log(err);
+          })
+          .done();
+      })
+      .catch((err) => {
+        console.log('WRONG SIGNIN', err);
+      })
+      .done();
   };
 
   render() {
+    console.log('user=', this.state.user);
+
     if (this.props.special) {
       return (
         <Button

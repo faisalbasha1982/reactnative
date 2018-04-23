@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Form } from 'native-base';
+import { GoogleSignin, GoogleSigninButton } from 'react-native-google-signin';
 import * as Animatable from 'react-native-animatable';
 import Email from '../InputComponents/Email';
 import LoginButton from './LoginButtons/LoginButton';
@@ -12,6 +13,13 @@ export default class LoginScreen extends Component {
     this.state = {
       inputs: [],
     };
+
+    await GoogleSignin.configure({
+      iosClientId: '856112431306-btql03u777irm9ge99n959s1k96omqc8.apps.googleusercontent.com',
+    })
+      .then(() => {
+      // you can now call currentUserAsync()
+      });
   }
 
   changeInputFocus = index => () => {

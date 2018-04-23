@@ -4,14 +4,8 @@ import { View } from 'native-base';
 import { Dimensions } from 'react-native';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import * as Animatable from 'react-native-animatable';
-import LinearGradient from 'react-native-linear-gradient';
 import CompanyBanner from './CompanyBanner/CompanyBanner';
 import LoginScreen from './LoginScreen/LoginScreen';
-import SignInScreen from './SignInScreen/SignInScreen';
-import TopTabs from './TopTabs/TopTabs';
-import SettingsButton from './Settings/SettingsButton';
-import SettingsPanel from './Settings/SettingsPanel';
-import PopupDialogs from './Settings/PopupDialogs/PopupDialogs';
 
 const viewPortHeight = Dimensions.get('window').height;
 

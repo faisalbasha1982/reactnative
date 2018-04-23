@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 import * as Animatable from 'react-native-animatable';
 import { Text, Spinner, Button } from 'native-base';
 import { Actions } from 'react-native-router-flux';
+import { Alert } from 'react-native';
+import Api from '../../../Api/api';
+
 
 export default class LoginButton extends Component {
   constructor() {
@@ -10,6 +13,7 @@ export default class LoginButton extends Component {
     this.state = {
       isLogin: false,
       canLogin: false,
+      auth_token: '',
     };
   }
 
@@ -21,12 +25,40 @@ export default class LoginButton extends Component {
     Actions.push('mainAppScreen');
   };
 
+  login = async () => {
+    fetch(Api.url, {
+      method: 'post',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        AuthenticationData: "{'Lang': 'en','AuthID': 'JS#236734','Data':'FormLogin','D' : '2018-04-22 7:15:12' ,'R' : 'er3rssf3dfd'}",
+        LoginData: "{'U' : 'Subbiah.Balaji@esteinternationalgroup.be.com','P': 'hello','D':'2018-04-17 6:28:12', 'R' : 'er3rssfd'}",
+        TestingMode: 'Testing@JobFixers#09876',
+      }),
+    }).then(response => response.json())
+      .then((res) => {
+        if (typeof (res.message) !== 'undefined') {
+          this.setState({ auth_token: res.LoginAccessToken });
+          Alert.alert('Welcome', ' You have succesfully logged in');
+          this.setState({ isLogin: false, canLogin: false });
+          GLOBAL.showToast(language.loginSuccess);
+          this.moveToMainAppScreen();
+          this.props.clear();
+        } else {
+          this.setState({ auth_token: res.LoginAccessToken });
+          Alert.alert('Welcome', ' You have succesfully logged in');
+        }
+      }).catch((error) => { console.error(error); });
+  };
+
   loginUser = () => {
     if (!this.state.isLogin) {
       if (!this.state.canLogin) {
         GLOBAL.showToast(language.checkFields);
       } else {
         this.setState({ isLogin: true });
+        this.login();
         setTimeout(() => {
           GLOBAL.showToast(language.loginSuccess);
           this.moveToMainAppScreen();
@@ -40,6 +72,8 @@ export default class LoginButton extends Component {
   render() {
     let animationType;
     let loginColor;
+
+    console.log('auth_token=', this.state.auth_token);
 
     if (this.state.canLogin) {
       animationType = 'pulse';
@@ -60,7 +94,7 @@ export default class LoginButton extends Component {
           bordered
           success
           activeOpacity={0.5}
-          onPress={this.loginUser}
+          onPress={this.login}
           style={{
             borderColor: '#000',
             backgroundColor: '#e82d38',

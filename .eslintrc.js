@@ -5,8 +5,12 @@ module.exports = {
        "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
     },
 
+    "env": {
+      "browser": true
+      },
+
     "globals": {
-      "width": true,
+      "width": true,      
       "height": true,
       "companyBannerHeight": true,
       "companyIconWidth": true,
@@ -20,6 +24,7 @@ module.exports = {
       "topTabColorOn": true,
       "gradient1": true,
       "gradient2": true,
+      "fetch": true,
       "companyBannerStyle": true,
       "placeHolderColor": true,
       "currentLanguage": true,

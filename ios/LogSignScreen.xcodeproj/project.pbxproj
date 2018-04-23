@@ -37,17 +37,31 @@
 		2D6C9C4624F449A3A90DC99E /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 138DFB078729443BA5C1FDE1 /* Entypo.ttf */; };
 		2DAD77FEBAFA4D43964D980A /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A6B5E011C4B63B06E7362 /* libBVLinearGradient.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* LogSignScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LogSignScreenTests.m */; };
+		2F0E9D8542244025B5428247 /* libRNRSA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF1DFBAC95242AC894E1957 /* libRNRSA.a */; };
 		4AD2F5EB7AF64860B51E86BB /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14BC92D22F524F8A8A045C36 /* FontAwesome.ttf */; };
 		4AF95C550B0E48A6B6A71028 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 468EF048613F4BA4B3F0578A /* Ionicons.ttf */; };
 		5E1144C36E2E4939A6DD1DF2 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9E5EEBC980C4D2EBE4A1EAD /* Roboto_medium.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		7B44DAB6208DB3F7006A1DCF /* libRNGoogleSignin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B44DAB5208DB3E9006A1DCF /* libRNGoogleSignin.a */; };
+		7BD18671208C5CD700D455B2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD1866F208C5CD700D455B2 /* FBSDKCoreKit.framework */; };
+		7BD18672208C5CD700D455B2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD18670208C5CD700D455B2 /* FBSDKLoginKit.framework */; };
+		7BD18686208C701B00D455B2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD18684208C701B00D455B2 /* Bolts.framework */; };
+		7BD18687208C701B00D455B2 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD18685208C701B00D455B2 /* FBSDKShareKit.framework */; };
+		7BF99164208C9D6A00851BF1 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7BF99161208C9D6A00851BF1 /* GoogleSignIn.bundle */; };
+		7BF99165208C9D6A00851BF1 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF99162208C9D6A00851BF1 /* GoogleSignInDependencies.framework */; };
+		7BF99166208C9D6A00851BF1 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF99163208C9D6A00851BF1 /* GoogleSignIn.framework */; };
+		7BF9916A208CBA6B00851BF1 /* GoogleService-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BF99169208CBA6B00851BF1 /* GoogleService-info.plist */; };
 		7C3ECF28BED54701B958C70C /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2579A163023841AD9EF0C4B2 /* MaterialIcons.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		88E801E30B1C427F9E46A1BC /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 842CF8DEA4DA4A398F00C5A6 /* rubicon-icon-font.ttf */; };
+		9AB00478848B10203BC470BB /* libPods-LogSignScreen-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B60F4D5C69E5AB8CF84550D /* libPods-LogSignScreen-tvOSTests.a */; };
+		A0E103A41479366CE7AD787F /* libPods-LogSignScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3450756A52431FB21BDD9864 /* libPods-LogSignScreen.a */; };
 		A8B241B7379A43D78F344C07 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 519376A19A37490DB0A9C4E3 /* Roboto.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		B51D8414DDD74F72B1A95CDC /* libRCTFBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37681D68F9614CA7A62E0CA2 /* libRCTFBSDK.a */; };
 		BD93F392140040748EEBC39A /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8C18B75512E4DFC87D37360 /* Foundation.ttf */; };
 		D2134C67B60D42E9AC6B8AFE /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D21D78CF1D53487CBC7A9841 /* EvilIcons.ttf */; };
+		E0C608D071738522116A0941 /* libPods-LogSignScreenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3159908B315351AEEA8BDC9 /* libPods-LogSignScreenTests.a */; };
 		E46FF8231B8F4E85843F4AE9 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB43C4AB72BD46998E151A0F /* SimpleLineIcons.ttf */; };
 		F7F2144BBD3C4833ACA77DE1 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09337C7B46484850919AB517 /* Zocial.ttf */; };
 		FA264B1A78FD4E8CBE849484 /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A01BD0C40E4103848A0317 /* libSplashScreen.a */; };
@@ -138,20 +152,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 3DBE0D0D1F3B181C0099AA32;
 			remoteInfo = "fishhook-tvOS";
-		};
-		1811E37E1FC19A1800375261 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF8340E2B67F4D5D8EC1BDF4 /* BVLinearGradient.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = BVLinearGradient;
-		};
-		1811E3801FC19A1800375261 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF8340E2B67F4D5D8EC1BDF4 /* BVLinearGradient.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 64AA15081EF7F30100718508;
-			remoteInfo = "BVLinearGradient-tvOS";
 		};
 		18AA48421FC19F9600569EA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -321,6 +321,55 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RCTLinking;
 		};
+		7B44DAB4208DB3E9006A1DCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B44DAB0208DB3E9006A1DCF /* RNGoogleSignin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9FD355121D3E4A2900D06170;
+			remoteInfo = RNGoogleSignin;
+		};
+		7BD1866C208C5CB000D455B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8854FDA0EF945BF8D4EC059 /* RNRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF40FFBD1F05EC4000DC4E95;
+			remoteInfo = RNRSA;
+		};
+		7BD186C2208C721B00D455B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44A0EBF92274D268E18F5B0 /* RCTFBSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9350E0F11CE3B0920041D815;
+			remoteInfo = RCTFBSDK;
+		};
+		7BF99096208C8D8F00851BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		7BF99098208C8D8F00851BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		7BF990F7208C915100851BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C83820E251E477A86A60E7D /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = BVLinearGradient;
+		};
+		7BF990F9208C915100851BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C83820E251E477A86A60E7D /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64AA15081EF7F30100718508;
+			remoteInfo = "BVLinearGradient-tvOS";
+		};
 		832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
@@ -365,21 +414,50 @@
 		2579A163023841AD9EF0C4B2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* LogSignScreen-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LogSignScreen-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* LogSignScreen-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogSignScreen-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3450756A52431FB21BDD9864 /* libPods-LogSignScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogSignScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37681D68F9614CA7A62E0CA2 /* libRCTFBSDK.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTFBSDK.a; sourceTree = "<group>"; };
 		468EF048613F4BA4B3F0578A /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		4B60F4D5C69E5AB8CF84550D /* libPods-LogSignScreen-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogSignScreen-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		519376A19A37490DB0A9C4E3 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		76CDEC28EDDB0B857A37E6E9 /* Pods-LogSignScreen-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogSignScreen-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LogSignScreen-tvOSTests/Pods-LogSignScreen-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7B44DAB0208DB3E9006A1DCF /* RNGoogleSignin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNGoogleSignin.xcodeproj; path = "../node_modules/react-native-google-signin/ios/RNGoogleSignin.xcodeproj"; sourceTree = "<group>"; };
+		7BD1866F208C5CD700D455B2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		7BD18670208C5CD700D455B2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		7BD18684208C701B00D455B2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		7BD18685208C701B00D455B2 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		7BD186C4208C843400D455B2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		7BD186C5208C843400D455B2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		7BD186C6208C843500D455B2 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		7BD186C7208C843600D455B2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		7BF99161208C9D6A00851BF1 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		7BF99162208C9D6A00851BF1 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		7BF99163208C9D6A00851BF1 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		7BF99167208CB65A00851BF1 /* GoogleSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GoogleSDK; sourceTree = "<group>"; };
+		7BF99169208CBA6B00851BF1 /* GoogleService-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-info.plist"; sourceTree = "<group>"; };
+		7BF9916B208CBDEF00851BF1 /* RNGoogleSignin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RNGoogleSignin; path = "../node_modules/react-native-google-signin/ios/RNGoogleSignin"; sourceTree = "<group>"; };
+		7BF9916D208CBF1C00851BF1 /* LogSignScreen-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogSignScreen-bridging-header.h"; sourceTree = "<group>"; };
 		7F0DF340D16F4D3EA4C56273 /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		842CF8DEA4DA4A398F00C5A6 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		8C83820E251E477A86A60E7D /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
 		96A01BD0C40E4103848A0317 /* libSplashScreen.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libSplashScreen.a; sourceTree = "<group>"; };
+		AA0959BE2BCCD2A918D37591 /* Pods-LogSignScreenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogSignScreenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LogSignScreenTests/Pods-LogSignScreenTests.release.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		ADF1DFBAC95242AC894E1957 /* libRNRSA.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNRSA.a; sourceTree = "<group>"; };
 		AE3A6B5E011C4B63B06E7362 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
 		D21D78CF1D53487CBC7A9841 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		D8854FDA0EF945BF8D4EC059 /* RNRSA.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNRSA.xcodeproj; path = "../node_modules/react-native-rsa-native/ios/RNRSA.xcodeproj"; sourceTree = "<group>"; };
+		DFAE8DB18D0CE5643B34A847 /* Pods-LogSignScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogSignScreen.release.xcconfig"; path = "Pods/Target Support Files/Pods-LogSignScreen/Pods-LogSignScreen.release.xcconfig"; sourceTree = "<group>"; };
+		E3159908B315351AEEA8BDC9 /* libPods-LogSignScreenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogSignScreenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C18B75512E4DFC87D37360 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		E9E5EEBC980C4D2EBE4A1EAD /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		F44A0EBF92274D268E18F5B0 /* RCTFBSDK.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTFBSDK.xcodeproj; path = "../node_modules/react-native-fbsdk/ios/RCTFBSDK.xcodeproj"; sourceTree = "<group>"; };
+		F8FC761E4982185507E7C424 /* Pods-LogSignScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogSignScreen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LogSignScreen/Pods-LogSignScreen.debug.xcconfig"; sourceTree = "<group>"; };
+		F97B37165D690DD236BDD0BC /* Pods-LogSignScreen-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogSignScreen-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LogSignScreen-tvOSTests/Pods-LogSignScreen-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB43C4AB72BD46998E151A0F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		FF8340E2B67F4D5D8EC1BDF4 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
+		FDFF96BC5C10CCE9FD92C9A5 /* Pods-LogSignScreenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogSignScreenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LogSignScreenTests/Pods-LogSignScreenTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -388,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				E0C608D071738522116A0941 /* libPods-LogSignScreenTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,8 +474,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B44DAB6208DB3F7006A1DCF /* libRNGoogleSignin.a in Frameworks */,
+				7BD18686208C701B00D455B2 /* Bolts.framework in Frameworks */,
+				7BD18687208C701B00D455B2 /* FBSDKShareKit.framework in Frameworks */,
+				7BD18671208C5CD700D455B2 /* FBSDKCoreKit.framework in Frameworks */,
+				7BD18672208C5CD700D455B2 /* FBSDKLoginKit.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
+				7BF99165208C9D6A00851BF1 /* GoogleSignInDependencies.framework in Frameworks */,
+				7BF99166208C9D6A00851BF1 /* GoogleSignIn.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -410,6 +496,9 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				2DAD77FEBAFA4D43964D980A /* libBVLinearGradient.a in Frameworks */,
 				FA264B1A78FD4E8CBE849484 /* libSplashScreen.a in Frameworks */,
+				2F0E9D8542244025B5428247 /* libRNRSA.a in Frameworks */,
+				B51D8414DDD74F72B1A95CDC /* libRCTFBSDK.a in Frameworks */,
+				A0E103A41479366CE7AD787F /* libPods-LogSignScreen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +521,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB00478848B10203BC470BB /* libPods-LogSignScreen-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +587,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		02F25DA379BB3BE61138B124 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8FC761E4982185507E7C424 /* Pods-LogSignScreen.debug.xcconfig */,
+				DFAE8DB18D0CE5643B34A847 /* Pods-LogSignScreen.release.xcconfig */,
+				F97B37165D690DD236BDD0BC /* Pods-LogSignScreen-tvOSTests.debug.xcconfig */,
+				76CDEC28EDDB0B857A37E6E9 /* Pods-LogSignScreen-tvOSTests.release.xcconfig */,
+				FDFF96BC5C10CCE9FD92C9A5 /* Pods-LogSignScreenTests.debug.xcconfig */,
+				AA0959BE2BCCD2A918D37591 /* Pods-LogSignScreenTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -543,6 +646,8 @@
 				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
 				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
+				7BF99097208C8D8F00851BF1 /* libjsinspector.a */,
+				7BF99099208C8D8F00851BF1 /* libjsinspector-tvOS.a */,
 				18AA48431FC19F9600569EA5 /* libthird-party.a */,
 				18AA48451FC19F9600569EA5 /* libthird-party.a */,
 				18AA48471FC19F9600569EA5 /* libdouble-conversion.a */,
@@ -558,17 +663,10 @@
 			children = (
 				AE3A6B5E011C4B63B06E7362 /* libBVLinearGradient.a */,
 				96A01BD0C40E4103848A0317 /* libSplashScreen.a */,
+				ADF1DFBAC95242AC894E1957 /* libRNRSA.a */,
+				37681D68F9614CA7A62E0CA2 /* libRCTFBSDK.a */,
 			);
 			name = "Recovered References";
-			sourceTree = "<group>";
-		};
-		1811E37A1FC19A1700375261 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1811E37F1FC19A1800375261 /* libBVLinearGradient.a */,
-				1811E3811FC19A1800375261 /* libBVLinearGradient.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		18AA481B1FC19F9600569EA5 /* Products */ = {
@@ -616,9 +714,57 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7B44DAB1208DB3E9006A1DCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B44DAB5208DB3E9006A1DCF /* libRNGoogleSignin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BD18666208C5CB000D455B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BD1866D208C5CB000D455B2 /* libRNRSA.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BD1866E208C5CD600D455B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BD18684208C701B00D455B2 /* Bolts.framework */,
+				7BD18685208C701B00D455B2 /* FBSDKShareKit.framework */,
+				7BD1866F208C5CD700D455B2 /* FBSDKCoreKit.framework */,
+				7BD18670208C5CD700D455B2 /* FBSDKLoginKit.framework */,
+				3450756A52431FB21BDD9864 /* libPods-LogSignScreen.a */,
+				4B60F4D5C69E5AB8CF84550D /* libPods-LogSignScreen-tvOSTests.a */,
+				E3159908B315351AEEA8BDC9 /* libPods-LogSignScreenTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BD186BF208C721B00D455B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BD186C3208C721B00D455B2 /* libRCTFBSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BF990F3208C915100851BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF990F8208C915100851BF1 /* libBVLinearGradient.a */,
+				7BF990FA208C915100851BF1 /* libBVLinearGradient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				7B44DAB0208DB3E9006A1DCF /* RNGoogleSignin.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -631,8 +777,10 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				FF8340E2B67F4D5D8EC1BDF4 /* BVLinearGradient.xcodeproj */,
 				7F0DF340D16F4D3EA4C56273 /* SplashScreen.xcodeproj */,
+				D8854FDA0EF945BF8D4EC059 /* RNRSA.xcodeproj */,
+				F44A0EBF92274D268E18F5B0 /* RCTFBSDK.xcodeproj */,
+				8C83820E251E477A86A60E7D /* BVLinearGradient.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -649,12 +797,25 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				7BF9916D208CBF1C00851BF1 /* LogSignScreen-bridging-header.h */,
+				7BF9916B208CBDEF00851BF1 /* RNGoogleSignin */,
+				7BF99169208CBA6B00851BF1 /* GoogleService-info.plist */,
+				7BF99167208CB65A00851BF1 /* GoogleSDK */,
+				7BF99161208C9D6A00851BF1 /* GoogleSignIn.bundle */,
+				7BF99163208C9D6A00851BF1 /* GoogleSignIn.framework */,
+				7BF99162208C9D6A00851BF1 /* GoogleSignInDependencies.framework */,
+				7BD186C5208C843400D455B2 /* Bolts.framework */,
+				7BD186C7208C843600D455B2 /* FBSDKCoreKit.framework */,
+				7BD186C4208C843400D455B2 /* FBSDKLoginKit.framework */,
+				7BD186C6208C843500D455B2 /* FBSDKShareKit.framework */,
 				13B07FAE1A68108700A75B9A /* LogSignScreen */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* LogSignScreenTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				4465B42699F240998DA1B053 /* Resources */,
 				1811E35E1FC19A1100375261 /* Recovered References */,
+				7BD1866E208C5CD600D455B2 /* Frameworks */,
+				02F25DA379BB3BE61138B124 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -688,6 +849,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LogSignScreenTests" */;
 			buildPhases = (
+				57F563E2B3AA66819041DAC1 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -706,10 +868,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LogSignScreen" */;
 			buildPhases = (
+				33AB45C28CAA488C321855D6 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				8164D9CFE8093D521568BD70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -742,6 +906,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "LogSignScreen-tvOSTests" */;
 			buildPhases = (
+				41420312482A376265F066EF /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -769,6 +934,9 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = K97VYW382Y;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -793,8 +961,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 1811E37A1FC19A1700375261 /* Products */;
-					ProjectRef = FF8340E2B67F4D5D8EC1BDF4 /* BVLinearGradient.xcodeproj */;
+					ProductGroup = 7BF990F3208C915100851BF1 /* Products */;
+					ProjectRef = 8C83820E251E477A86A60E7D /* BVLinearGradient.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
@@ -807,6 +975,10 @@
 				{
 					ProductGroup = ADBDB9201DFEBF0600ED6528 /* Products */;
 					ProjectRef = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
+				},
+				{
+					ProductGroup = 7BD186BF208C721B00D455B2 /* Products */;
+					ProjectRef = F44A0EBF92274D268E18F5B0 /* RCTFBSDK.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
@@ -843,6 +1015,14 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 7B44DAB1208DB3E9006A1DCF /* Products */;
+					ProjectRef = 7B44DAB0208DB3E9006A1DCF /* RNGoogleSignin.xcodeproj */;
+				},
+				{
+					ProductGroup = 7BD18666208C5CB000D455B2 /* Products */;
+					ProjectRef = D8854FDA0EF945BF8D4EC059 /* RNRSA.xcodeproj */;
 				},
 				{
 					ProductGroup = 18AA481B1FC19F9600569EA5 /* Products */;
@@ -935,20 +1115,6 @@
 			fileType = archive.ar;
 			path = "libfishhook-tvOS.a";
 			remoteRef = 1811E3781FC19A1700375261 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1811E37F1FC19A1800375261 /* libBVLinearGradient.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libBVLinearGradient.a;
-			remoteRef = 1811E37E1FC19A1800375261 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1811E3811FC19A1800375261 /* libBVLinearGradient.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libBVLinearGradient.a;
-			remoteRef = 1811E3801FC19A1800375261 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		18AA48431FC19F9600569EA5 /* libthird-party.a */ = {
@@ -1112,6 +1278,55 @@
 			remoteRef = 78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		7B44DAB5208DB3E9006A1DCF /* libRNGoogleSignin.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNGoogleSignin.a;
+			remoteRef = 7B44DAB4208DB3E9006A1DCF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7BD1866D208C5CB000D455B2 /* libRNRSA.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNRSA.a;
+			remoteRef = 7BD1866C208C5CB000D455B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7BD186C3208C721B00D455B2 /* libRCTFBSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTFBSDK.a;
+			remoteRef = 7BD186C2208C721B00D455B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7BF99097208C8D8F00851BF1 /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = 7BF99096208C8D8F00851BF1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7BF99099208C8D8F00851BF1 /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = 7BF99098208C8D8F00851BF1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7BF990F8208C915100851BF1 /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = 7BF990F7208C915100851BF1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7BF990FA208C915100851BF1 /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = 7BF990F9208C915100851BF1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		832341B51AAA6A8300B99B32 /* libRCTText.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1140,6 +1355,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF9916A208CBA6B00851BF1 /* GoogleService-info.plist in Resources */,
+				7BF99164208C9D6A00851BF1 /* GoogleSignIn.bundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				2D6C9C4624F449A3A90DC99E /* Entypo.ttf in Resources */,
@@ -1203,6 +1420,80 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		33AB45C28CAA488C321855D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogSignScreen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41420312482A376265F066EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogSignScreen-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57F563E2B3AA66819041DAC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogSignScreenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8164D9CFE8093D521568BD70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LogSignScreen/Pods-LogSignScreen-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LogSignScreen/Pods-LogSignScreen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1271,6 +1562,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFF96BC5C10CCE9FD92C9A5 /* Pods-LogSignScreenTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1281,15 +1573,14 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
+					"$(SRCROOT)/../node_modules/react-native-rsa-native/ios",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
 				INFOPLIST_FILE = LogSignScreenTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1301,6 +1592,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0959BE2BCCD2A918D37591 /* Pods-LogSignScreenTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1308,15 +1600,14 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
+					"$(SRCROOT)/../node_modules/react-native-rsa-native/ios",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
 				INFOPLIST_FILE = LogSignScreenTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1328,17 +1619,28 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8FC761E4982185507E7C424 /* Pods-LogSignScreen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = K97VYW382Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
+					"$(SRCROOT)/../node_modules/react-native-rsa-native/ios",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
 				INFOPLIST_FILE = LogSignScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1351,13 +1653,23 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFAE8DB18D0CE5643B34A847 /* Pods-LogSignScreen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K97VYW382Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
+					"$(SRCROOT)/../node_modules/react-native-rsa-native/ios",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
 				INFOPLIST_FILE = LogSignScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1387,14 +1699,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
+					"$(SRCROOT)/../node_modules/react-native-rsa-native/ios",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
 				INFOPLIST_FILE = "LogSignScreen-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1423,14 +1734,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
+					"$(SRCROOT)/../node_modules/react-native-rsa-native/ios",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
 				INFOPLIST_FILE = "LogSignScreen-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1445,6 +1755,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97B37165D690DD236BDD0BC /* Pods-LogSignScreen-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1456,11 +1767,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "LogSignScreen-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.LogSignScreen-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -1471,6 +1778,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CDEC28EDDB0B857A37E6E9 /* Pods-LogSignScreen-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1482,11 +1790,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "LogSignScreen-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.LogSignScreen-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;

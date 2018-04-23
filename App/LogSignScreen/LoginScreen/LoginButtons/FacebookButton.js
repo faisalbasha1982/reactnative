@@ -1,10 +1,25 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Button, Text, Icon } from 'native-base';
+import { LoginManager } from 'react-native-fbsdk';
 
 export default class FacebookButton extends Component {
   onFacebookButtonClick = () => {
     console.warn('Facebook button clicked'); // eslint-disable-line
+
+    LoginManager.logInWithReadPermissions(['public_profile']).then(
+      (result) => {
+        if (result.isCancelled) {
+          console.log('Login was cancelled');
+        } else {
+          console.log(`Login was successful with permissions: ${
+            result.grantedPermissions.toString()}`);
+        }
+      },
+      (error) => {
+        console.log(`Login failed with error: ${error}`);
+      },
+    );
   };
 
   render() {
