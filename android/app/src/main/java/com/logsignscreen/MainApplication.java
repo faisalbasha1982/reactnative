@@ -3,6 +3,8 @@ package com.logsignscreen;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import net.jodybrewster.linkedinlogin.RNLinkedinLoginPackage;
+import com.goldenowl.twittersignin.TwitterSigninPackage;
 import co.apptailor.googlesignin.RNGoogleSigninPackage;
 
 import com.facebook.CallbackManager;
@@ -17,7 +19,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 import co.apptailor.googlesignin.RNGoogleSigninPackage;  // <--- import
-
+import com.reactlibrary.linkedinsdk.RNLinkedInSessionManagerPackage; // Add this.
 
 import java.util.Arrays;
 import java.util.List;
@@ -40,11 +42,14 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNLinkedinLoginPackage(),
+            new TwitterSigninPackage(),
             new RNGoogleSigninPackage(),
             new FBSDKPackage(),
             new RNRSAPackage(),
             new SplashScreenReactPackage(),
-            new LinearGradientPackage()
+            new LinearGradientPackage(),
+            new RNLinkedInSessionManagerPackage() // Add this.
       );
     }
 

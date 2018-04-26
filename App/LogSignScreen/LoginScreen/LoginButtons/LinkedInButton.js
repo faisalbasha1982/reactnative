@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { AsyncStorage } from 'react-native';
 import { Button, Text, Icon } from 'native-base';
+import LinkedInModal from 'react-native-linkedin';
+import Api from '../../../Api/api';
 
 export default class LinkedInButton extends Component {
-  onLinkedInButtonClick = () => {
-    console.warn('LinkedIn button clicked'); // eslint-disable-line
+  state = {
+    user: '',
   };
 
   render() {
@@ -23,17 +26,19 @@ export default class LinkedInButton extends Component {
           }}
         >
           <Icon style={{ fontSize: GLOBAL.totalSize(3.5), color: mainThemeColor }} name="logo-linkedin" />
-          <Text
-            uppercase={false}
+          <LinkedInModal
             style={{
-            fontSize: GLOBAL.totalSize(2.22),
-            fontWeight: '500',
-            textAlign: 'center',
-            color: mainThemeColor,
-            marginRight: 10,
-          }}
-          >Login with LinkedIn
-          </Text>
+                        fontSize: GLOBAL.totalSize(2.22),
+                        fontWeight: '500',
+                        textAlign: 'left',
+                        color: mainThemeColor,
+                        marginRight: 10,
+                      }}
+            clientID="81td97f0ibm93v"
+            clientSecret="RotJQJQRBbBoWG7l"
+            redirectUri="https://www.linkedin.com/developer/apps"
+            onSuccess={token => console.log(token)}
+          />
         </Button>
       );
     }

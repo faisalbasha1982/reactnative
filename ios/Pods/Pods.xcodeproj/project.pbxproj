@@ -38,9 +38,11 @@
 		2321C312E98CA34BE6BACD8264B009CB /* Pods-LogSignScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LogSignScreen.debug.xcconfig"; sourceTree = "<group>"; };
 		25D2E07EA8D69A6076D0B41C96117798 /* Pods-LogSignScreen-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LogSignScreen-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		261BD9553767B6585B64BCB234C41E0F /* libPods-LogSignScreen-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LogSignScreen-tvOSTests.a"; path = "libPods-LogSignScreen-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28312186C322A74A61CE43697138CCC6 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		300E3B391D3594414AFDCF44B7437166 /* Pods-LogSignScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LogSignScreen.release.xcconfig"; sourceTree = "<group>"; };
 		318EFA224A493319B84A4B71874608B3 /* Pods-LogSignScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LogSignScreen-dummy.m"; sourceTree = "<group>"; };
 		3499AFADF583B0C9C7FBCBAB1256A19D /* Pods-LogSignScreen-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LogSignScreen-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		3E396D0EFEB42CA7ADD1D1895A2F6E15 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6E93C9CCC1CC53CA9433545A4230F764 /* Pods-LogSignScreenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LogSignScreenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7420EC188A3C3F7A9DAEDC612318135A /* Pods-LogSignScreenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LogSignScreenTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -49,7 +51,9 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0B095F5BAF9D68328462E2F3C5E962 /* libPods-LogSignScreenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LogSignScreenTests.a"; path = "libPods-LogSignScreenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAEB971F32D576A01106FFF62D2C4AD /* Pods-LogSignScreenTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LogSignScreenTests-resources.sh"; sourceTree = "<group>"; };
+		B240D65485509CF7EE0998A8DD37E68D /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
 		B5C1C94AF44C8CCEB9781C1303BBDC07 /* Pods-LogSignScreen-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LogSignScreen-frameworks.sh"; sourceTree = "<group>"; };
+		BBCCF59BD8B77C768DD936C8892A471F /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
 		BECB5FA9F1E0DA97C6BD0158C6EBB76F /* Pods-LogSignScreen-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LogSignScreen-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		BF184E1C9D4329562A1838E2E4A4DFA0 /* Pods-LogSignScreen-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LogSignScreen-tvOSTests-dummy.m"; sourceTree = "<group>"; };
 		C1222398B9AE9B2D082F896FB92FFD99 /* Pods-LogSignScreenTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LogSignScreenTests-frameworks.sh"; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		D6F6A5E12956197851616C105B0272D1 /* Pods-LogSignScreen-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LogSignScreen-resources.sh"; sourceTree = "<group>"; };
 		DC293129176D324AD2693F2DDF7A6E0F /* Pods-LogSignScreenTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LogSignScreenTests-dummy.m"; sourceTree = "<group>"; };
 		DE1EF7E77E824C7465FBC12508517327 /* Pods-LogSignScreen-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LogSignScreen-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFEB9418A8A8EB2F5863DFCB9B689717 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		E5F844671CFECD95B1DC4725713B13CC /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		F067412E03F273E3AC970430312D8988 /* Pods-LogSignScreen-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LogSignScreen-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2A7235F03233F44F09FB13475788324 /* Pods-LogSignScreen-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LogSignScreen-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +110,14 @@
 			path = "Target Support Files/Pods-LogSignScreenTests";
 			sourceTree = "<group>";
 		};
+		17A11F737FAE865798D118450678B032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28312186C322A74A61CE43697138CCC6 /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		465A62671B14E4472D2379DA98D8EBF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +126,14 @@
 				9F0B095F5BAF9D68328462E2F3C5E962 /* libPods-LogSignScreenTests.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4DBD6493E5C509076AE36D8AB0E5A90A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5F844671CFECD95B1DC4725713B13CC /* TwitterKitResources.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5683C01D3E6AA85D55125D97866F2880 /* Targets Support Files */ = {
@@ -124,14 +146,71 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		6244FE393E8B9DFF3E7790F0DC742EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBCCF59BD8B77C768DD936C8892A471F /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B22FE4A2A7819BC0489C26EE175D17A5 /* Pods */,
 				465A62671B14E4472D2379DA98D8EBF7 /* Products */,
 				5683C01D3E6AA85D55125D97866F2880 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		903DD9ADE5A783C51AE10D015DAFCBD9 /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				B1A0E5407F061703CD8312BBB914D1EF /* Frameworks */,
+			);
+			name = TwitterCore;
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		9CD88076543926CCFD2E3380C0E13022 /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				6244FE393E8B9DFF3E7790F0DC742EF8 /* Frameworks */,
+				4DBD6493E5C509076AE36D8AB0E5A90A /* Resources */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		B1A0E5407F061703CD8312BBB914D1EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E396D0EFEB42CA7ADD1D1895A2F6E15 /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B22FE4A2A7819BC0489C26EE175D17A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3EE012E55D8C78378CC92DBFFD0E03D /* Fabric */,
+				903DD9ADE5A783C51AE10D015DAFCBD9 /* TwitterCore */,
+				9CD88076543926CCFD2E3380C0E13022 /* TwitterKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3EE012E55D8C78378CC92DBFFD0E03D /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				B240D65485509CF7EE0998A8DD37E68D /* FABAttributes.h */,
+				DFEB9418A8A8EB2F5863DFCB9B689717 /* Fabric.h */,
+				17A11F737FAE865798D118450678B032 /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
 			sourceTree = "<group>";
 		};
 		B53040E13F6770CF6C039FED0B312294 /* Pods-LogSignScreen */ = {

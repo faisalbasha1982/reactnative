@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Button, Text, Icon } from 'native-base';
 import { GoogleSignin, GoogleSigninButton } from 'react-native-google-signin';
 
-
 export default class GoogleButton extends Component {
   constructor(props) {
     super(props);

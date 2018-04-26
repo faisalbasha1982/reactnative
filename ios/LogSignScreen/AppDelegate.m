@@ -15,6 +15,8 @@
 #import <GoogleSignIn/GoogleSignIn.h>
 #import <RNGoogleSignin/RNGoogleSignin.h>
 
+@import TwitterKit;
+
 @interface AppDelegate ()<GIDSignInDelegate>
 
 @end
@@ -28,7 +30,7 @@
   NSURL *jsCodeLocation;
 
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
-
+  
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                       moduleName:@"LogSignScreen"
                                                initialProperties:nil
@@ -64,9 +66,11 @@
                                                              annotation:options[UIApplicationOpenURLOptionsAnnotationKey]
                   ];
   // Add any custom logic here.
+ 
   return handled || [RNGoogleSignin application:application openURL:url
                                         sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
-                                               annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
+                                               annotation:options[UIApplicationOpenURLOptionsAnnotationKey]]
+                  || [[Twitter sharedInstance] application:options[UIApplicationOpenURLOptionsSourceApplicationKey] openURL:url options:options];
 
 }
 

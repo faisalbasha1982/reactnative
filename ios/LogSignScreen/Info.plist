@@ -25,39 +25,41 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb1853465214955874</string>
+				<string>fb712282838941936</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.googleusercontent.apps.856112431306-btql03u777irm9ge99n959s1k96omqc8</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>com.googleusercontent.apps.856112431306-btql03u777irm9ge99n959s1k96omqc8</string>
-				<string>856112431306-btql03u777irm9ge99n959s1k96omqc8.apps.googleusercontent.com</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>org.reactjs.native.example.LogSignScreen</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>org.reactjs.native.example.LogSignScreen</string>
 			</array>
 		</dict>
 	</array>
-	<key>CFBundleVersion</key>
-	<string>1</string>
 	<key>FacebookAppID</key>
-	<string>1853465214955874</string>
+	<string>712282838941936</string>
 	<key>FacebookDisplayName</key>
-	<string>ApplicationNew</string>
+	<string>JobFIXers first app</string>
+	<key>LIAppId</key>
+	<string>5234225</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
-		<string>fbapi</string>
-		<string>fb-messenger-share-api</string>
-		<string>fbauth2</string>
-		<string>fbshareextension</string>
+		<string>linkedin</string>
+		<string>linkedin-sdk2</string>
+		<string>linkedin-sdk</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
